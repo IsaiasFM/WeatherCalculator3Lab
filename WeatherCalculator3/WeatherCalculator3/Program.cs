@@ -21,8 +21,6 @@ namespace WeatherCalculator3
             while (n == 1)
             {
 
-
-
                 // Get the temperature from the user
                 Console.WriteLine("Enter the temperature");
 
@@ -72,8 +70,6 @@ namespace WeatherCalculator3
                 Console.WriteLine("2 - No");
 
                 n = int.Parse(Console.ReadLine());
-
-                Console.WriteLine(n);
             }
             
             // Tell the user the program is ending
